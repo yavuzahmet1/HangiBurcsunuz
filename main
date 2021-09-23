@@ -1,0 +1,92 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int month, day;
+        System.out.println("Lütfen doğduğunuz ayı sayı cinsinden giriniz\t: ");
+        month = scanner.nextInt();
+        System.out.println("Lütfen doğduğunuz günü sayı cinsinden giriniz\t: ");
+        day = scanner.nextInt();
+        switch (month) {
+            case 1:
+                if (month < 22) {
+                    System.out.println("Oğlak burcundasınız");
+                } else {
+                    System.out.println("Kova burcundasınız");
+                }break;
+            case 2:
+                if (month < 20) {
+                    System.out.println("Kova burcundasınız");
+                } else {
+                    System.out.println("Balık burcundasınız");
+                }break;
+            case 3:
+                if (19 > month) {
+                    System.out.println("Balık burcundasınız");
+                } else {
+                    System.out.println("Koç burcunuzdasınız");
+                }break;
+            case 4:
+                if (month < 22) {
+                    System.out.println("Koç burcundasınız");
+                } else {
+                    System.out.println("Boğa burcundasınız");
+                }break;
+            case 5:
+                if (month < 23) {
+                    System.out.println("Boğa burcundasınız");
+                } else {
+                    System.out.println("İkizler burcundasınız");
+                }break;
+            case 6:
+                if (month < 23) {
+                    System.out.println("İkizler burcundasınız");
+                } else {
+                    System.out.println("Yengeç burcundasınız");
+                }break;
+            case 7:
+                if (month < 23) {
+                    System.out.println("Yengeç burcundasınız");
+                } else {
+                    System.out.println("Aslan burcundasınız");
+                }break;
+            case 8:
+                if (month < 23) {
+                    System.out.println("Aslan burcundasınız");
+                } else {
+                    System.out.println("Başak burcundasınız");
+                }break;
+            case 9:
+                if (month < 23) {
+                    System.out.println("Başak burcundasınız");
+                } else {
+                    System.out.println("Terazi burcundasınız");
+                }break;
+            case 10:
+                if (month < 23) {
+                    System.out.println("Terazi burcundasınız");
+                } else {
+                    System.out.println("Akrep burcundasınız");
+                }break;
+            case 11:
+                if (month < 23) {
+                    System.out.println("Akrep burcundasınız");
+                } else {
+                    System.out.println("Yay burcunddasınız");
+                }break;
+            case 12:
+                if (month < 23) {
+                    System.out.println("Yay burcundasınız");
+                } else {
+                    System.out.println("Oğlak burcundasınız");
+                }break;
+            default:
+                System.out.println("Yanlış sayı girişi yaptınız.");
+                break;
+
+        }
+
+    }
+}
